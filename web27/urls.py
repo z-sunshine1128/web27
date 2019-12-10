@@ -39,7 +39,8 @@ urlpatterns = [
     path('zhoupengbo/',include('zhoupengbo.urls')),
     path("liuxinkai/",include('liuxinkai.urls')),
     path('haoshaojie/',include('haoshaojie.urls')),
-    path('yaopeng/',include('yaopeng.urls'))
+    path('yaopeng/',include('yaopeng.urls')),
+    path('tanlufei',include('tanlufei.urls'))
 
 
 
