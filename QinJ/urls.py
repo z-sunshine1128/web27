@@ -5,4 +5,6 @@ app_name = 'QinJ'
 
 urlpatterns = [
     path('index/',views.index,name='index')
+
+
 ]
