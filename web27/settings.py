@@ -30,6 +30,8 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'jiajinyu',
     'liwenwen',
+    'QinJ',
+    'hutongjie',
     'xiaoyu',
     'dutailong',
     'xuecuiping',
@@ -49,6 +53,7 @@ INSTALLED_APPS = [
     'zhoupengbo',
     'liuxinkai',
     'haoshaojie',
+
 ]
 
 MIDDLEWARE = [
@@ -89,7 +94,7 @@ WSGI_APPLICATION = 'web27.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'hutongjie/db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
