@@ -40,7 +40,8 @@ urlpatterns = [
     path("liuxinkai/",include('liuxinkai.urls')),
     path('haoshaojie/',include('haoshaojie.urls')),
     path('yaopeng/',include('yaopeng.urls')),
-    path('tanlufei',include('tanlufei.urls'))
+    path('tanlufei',include('tanlufei.urls')),
+    path('zhaoyao/', include('zhaoyao.urls')),
 
 
 
