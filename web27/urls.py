@@ -19,6 +19,7 @@ from . import views
 
 urlpatterns = [
     path('',views.index),
-    path('jiajinyu',include('jiajinyu.urls'))
+    path('jiajinyu',include('jiajinyu.urls')),
+    path('liwenwen', include('liwenwen.urls')),
 
 ]
