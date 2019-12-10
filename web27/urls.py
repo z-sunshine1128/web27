@@ -21,5 +21,6 @@ urlpatterns = [
     path('',views.index),
     path('jiajinyu',include('jiajinyu.urls')),
     path('liwenwen', include('liwenwen.urls')),
+    path('hutongjie/',include('hutongjie.urls')),
 
 ]
