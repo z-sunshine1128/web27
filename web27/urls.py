@@ -32,5 +32,4 @@ urlpatterns = [
     path('liuyajing/', include('liuyajing.urls')),
     path('zhaoxinyu/', include('zhaoxinyu.urls')),
     path('mateng/', include('mateng.urls')),
-    path('zhangyilin/', include('zhangyilin.urls')),
 ]
