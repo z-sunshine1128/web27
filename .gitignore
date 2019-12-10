@@ -5,8 +5,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-.idea
-*.xml
 
 # C extensions
 *.so
@@ -132,3 +130,5 @@ dmypy.json
 .idea/modules.xml
 .idea/web27.iml
 .idea/workspace.xml
+.idea/vcs.xml
+
