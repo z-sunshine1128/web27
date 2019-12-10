@@ -22,5 +22,5 @@ urlpatterns = [
     path('jiajinyu',include('jiajinyu.urls')),
     path('liwenwen', include('liwenwen.urls')),
     path('hutongjie/',include('hutongjie.urls')),
-
+    path('xiaoyu', include('xiaoyu.urls')),
 ]
