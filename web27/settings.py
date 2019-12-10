@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'qiuyuxin',
     'zhoupengbo',
     'liuxinkai',
+    'haoshaojie',
 ]
 
 MIDDLEWARE = [
