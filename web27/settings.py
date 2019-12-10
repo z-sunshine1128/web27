@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'jiajinyu',
     'liwenwen',
-    'xiaoyu'
+    'xiaoyu',
+    'dutailong'
 ]
 
 MIDDLEWARE = [
