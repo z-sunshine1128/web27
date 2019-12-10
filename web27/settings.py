@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'jiajinyu',
     'liwenwen',
+    'hutongjie',
+    'xiaoyu'
     'xiaoyu',
     'dutailong'
 ]
