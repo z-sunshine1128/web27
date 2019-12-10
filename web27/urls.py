@@ -24,4 +24,5 @@ urlpatterns = [
     path('hutongjie/',include('hutongjie.urls')),
     path('xiaoyu', include('xiaoyu.urls')),
     path('dutailong', include('dutailong.urls')),
+    path('songjialun',include('songjialun.urls')),
 ]
