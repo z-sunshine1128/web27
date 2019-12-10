@@ -43,6 +43,7 @@ urlpatterns = [
     path('tanlufei',include('tanlufei.urls')),
     path('zhaoyao/', include('zhaoyao.urls')),
     path('zhangzihan/',include('zhangzihan.urls')),
+    path('zhaoyanchao/',include('zhaoyanchao.urls'))
 
 
 ]

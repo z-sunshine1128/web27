@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     'tanlufei',
     'zhaoyao',
     'zhangzihan',
+    'zhaoyanchao',
 
 
 ]
