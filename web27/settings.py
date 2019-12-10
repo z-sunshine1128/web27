@@ -37,10 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'jiajinyu',
-    'liwenwen',
-    'xiaoyu',
-    'dutailong'
+    'jiajinyu'
 ]
 
 MIDDLEWARE = [
