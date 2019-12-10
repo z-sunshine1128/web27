@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     'QinJ',
 
     
+    'hutongjie',
+    'xiaoyu'
+    'xiaoyu',
+    'dutailong'
 ]
 
 MIDDLEWARE = [

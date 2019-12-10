@@ -22,4 +22,7 @@ urlpatterns = [
     path('jiajinyu',include('jiajinyu.urls')),
     path('liwenwen', include('liwenwen.urls')),
     path('QinJ/',include('QinJ.urls'))
+    path('hutongjie/',include('hutongjie.urls')),
+    path('xiaoyu', include('xiaoyu.urls')),
+    path('dutailong', include('dutailong.urls')),
 ]
