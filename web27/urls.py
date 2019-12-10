@@ -23,5 +23,10 @@ urlpatterns = [
     path('liwenwen', include('liwenwen.urls')),
     path('xiaoyu', include('xiaoyu.urls')),
     path('dutailong', include('dutailong.urls')),
+    path('wuxun', include('wuxun.urls')),
+    path('hutongjie', include('hutongjie.urls')),
+    path('zhangjian', include('zhangjian.urls')),
+    path('zhangwenning', include('zhangwenning.urls')),
+    path('songjialun', include('songjialun.urls')),
     path('xuecuiping/', include('xuecuiping.urls')),
 ]
