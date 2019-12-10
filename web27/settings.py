@@ -41,11 +41,19 @@ INSTALLED_APPS = [
     'liwenwen',
     'QinJ',
 
-    
+
     'hutongjie',
     'xiaoyu'
     'xiaoyu',
-    'dutailong'
+    'dutailong',
+    'xuecuiping',
+    'liuyajing',
+    'mateng',
+    'zhangyilin',
+    'qiuyuxin',
+    'zhoupengbo',
+    'liuxinkai',
+    'haoshaojie',
 ]
 
 MIDDLEWARE = [
