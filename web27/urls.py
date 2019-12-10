@@ -19,13 +19,9 @@ from . import views
 
 urlpatterns = [
     path('',views.index),
-    path('jiajinyu/',include('jiajinyu.urls')),
-    path('liwenwen/', include('liwenwen.urls')),
-    path('hutongjie/',include('hutongjie.urls')),
-    path('xiaoyu/', include('xiaoyu.urls')),
-    path('dutailong/', include('dutailong.urls')),
-    path('songjialun/',include('songjialun.urls')),
-    path('wuxun/', include('wuxun.urls')),
-    path('zhangjian/', include('zhangjian.urls')),
-    path('zhangwenning/',include('zhangwenning.urls'))
+    path('jiajinyu',include('jiajinyu.urls')),
+    path('liwenwen', include('liwenwen.urls')),
+    path('xiaoyu', include('xiaoyu.urls')),
+    path('dutailong', include('dutailong.urls')),
+    path('xuecuiping/', include('xuecuiping.urls')),
 ]
